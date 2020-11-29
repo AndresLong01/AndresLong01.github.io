@@ -25,7 +25,7 @@ export const homeObjTwo = {
     description: 'I am a young, driven and meticulous programmer that stops at nothing to provide the most efficient solutions to the problems at hand. With experience in management for small teams I have learned that leadership is a trait that is refined over years of hard-work and dedication.',
     buttonLabel: "Let's talk!",
     imgStart: false,
-    img: '../../images/experience.png',
+    img: 'https://res.cloudinary.com/andreslong/image/upload/v1606602754/undraw_interaction_design_odgc_xtoo7r.png',
     alt: 'me',
     dark: false,
     primary: false,
@@ -33,7 +33,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'about',
+    id: 'technology',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -42,7 +42,7 @@ export const homeObjThree = {
     description: 'I am a young, driven and meticulous programmer that stops at nothing to provide the most efficient solutions to the problems at hand. With experience in management for small teams I have learned that leadership is a trait that is refined over years of hard-work and dedication.',
     buttonLabel: "Let's talk!",
     imgStart: true,
-    img: 'https://scontent.fhou1-2.fna.fbcdn.net/v/t31.0-8/27368561_10155923024448070_18171232132982213_o.jpg?_nc_cat=109&ccb=2&_nc_sid=a4a2d7&_nc_ohc=RYjd95NW_9wAX-duXLp&_nc_ht=scontent.fhou1-2.fna&oh=ea77cf4323f9fbeb14d6871a84f313ad&oe=5FDC2D2B',
+    img: 'https://res.cloudinary.com/andreslong/image/upload/v1606602907/undraw_project_completed_w0oq_aeg5wj.png',
     alt: 'me',
     dark: false,
     primary: false,

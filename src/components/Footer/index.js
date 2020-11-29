@@ -1,7 +1,13 @@
 import React from 'react'
+import {animateScroll as scroll} from 'react-scroll'
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialIconLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights} from './FooterElements'
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMusic, FaPalette, FaStethoscope} from 'react-icons/fa'
 const Footer = () => {
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  }
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -28,7 +34,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>
+            <SocialLogo to='/' onClick={toggleHome}>
               Andres Long
             </SocialLogo>
             <WebsiteRights>Made by Andres Long © 2020</WebsiteRights>
