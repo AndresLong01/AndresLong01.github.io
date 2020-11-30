@@ -13,12 +13,12 @@ const Projects = () => {
                     <ProjectsH2>Mirabella Doors</ProjectsH2>
                     <ProjectsP>Active Full Stack website for a local business boasting a modern style and animations as well as a robust database for their products</ProjectsP>
                 </ProjectsCard>
-                <ProjectsCard>
+                <ProjectsCard href="https://andreslong01.github.io/react-chat/" target="_blank">
                     <ProjectsIcon src={superchat}/>
                     <ProjectsH2>Superchat Demo</ProjectsH2>
                     <ProjectsP>Virtual demonstration of a firebase and React driven actively updated chat application at scale with live authentication methods</ProjectsP>
                 </ProjectsCard>
-                <ProjectsCard>
+                <ProjectsCard href="https://github.com/AndresLong01/Employee-Tracker-SQL" target="_blank">
                     <ProjectsIcon src={database}/>
                     <ProjectsH2>SQL Database Demo</ProjectsH2>
                     <ProjectsP>A full demo for Node on a wroking database for sorting employees, adding employees and associating them to different department tables</ProjectsP>

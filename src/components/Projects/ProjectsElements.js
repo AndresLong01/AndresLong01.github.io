@@ -9,11 +9,11 @@ align-items: center;
 background: #010606;
 
 @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1300px;
 }
 
 @media screen and (max-width: 560px) {
-    height: 1300px;
+    height: 1500px;
 }`
 
 export const ProjectsWrapper = styled.div`
