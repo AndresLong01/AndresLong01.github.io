@@ -2,7 +2,6 @@ import './App.css';
 import Home from './pages';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Contact from './pages/contact';
-// import './particleEngine.js';
 
 function App() {
   return (
