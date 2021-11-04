@@ -23,7 +23,6 @@ export const homeObjTwo = {
     topLine: 'Previous Experience',
     headline: 'My professional Experience goes as follows:',
     description: `• Trilogy Education Services - Full-Stack Web Development Tutor: Responsible for helping multiple students weekly on their journey of learning more about Full Stack Web Development. Focusing mostly on MERN Stack. | 
-    • Hopdoddy Burger Bar – Manager: Managed the highest volume location by analyzing daily sales, comparing it to other chain locations in the Houston area, and the rest of the company. Managed a team of 20 people and in charge of training and development for new team members
     • Free-Lance Web Development: Taken multiple different clients in and engaged with them to create websites for business and personal use. Learning new technologies with every project.`,
     buttonLabel: "Let's talk!",
     imgStart: false,
@@ -34,6 +33,7 @@ export const homeObjTwo = {
     darkText: true
 }
 
+// • Hopdoddy Burger Bar – Manager: Managed the highest volume location by analyzing daily sales, comparing it to other chain locations in the Houston area, and the rest of the company. Managed a team of 20 people and in charge of training and development for new team members
 export const homeObjThree = {
     id: 'technology',
     lightBg: true,
